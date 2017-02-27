@@ -333,7 +333,7 @@ class RemoteWebDriver implements WebDriver, JavaScriptExecutor, WebDriverHasInpu
             $this->execute(DriverCommand::SCREENSHOT)
         );
         if ($save_as) {
-            file_put_contents($save_as, $screenshot);
+            file_put_contents('tests/Browser/screenshot', $screenshot);
         }
 
         return $screenshot;

@@ -28,6 +28,7 @@
       "Facebook\\WebDriver\\": "lib/"
     }
   },
+
   "autoload-dev": {
     "psr-4": {
       "Facebook\\WebDriver\\": ["tests/unit", "tests/functional"]
